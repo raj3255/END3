@@ -1,0 +1,345 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{graphicx}
+\usepackage{xcolor}    
+\usepackage{soul} 
+\usepackage{cite} 
+\usepackage[T1]{fontenc}
+\title{SSL Latex Assignment}
+\author{SUNNY RAJ \\ \\CS23BT054 \\ \\ Department of Computer Science, IIT Dharwad}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	\pagebreak
+	\begin{itemize}
+		\item[] \textbf{Contents}
+		\begin{enumerate}
+			\item[1] \textbf{Introduction} \hfill{3}
+			\item[2] \textbf{Mathematics} \hfill{4}
+			\begin{enumerate}
+				\item[2.1] Writing Trigonometric equations \dotfill{4}
+				\begin{enumerate}
+					\item[2.1.1] Some trigonometric identities \dotfill{4}
+				\end{enumerate}
+				\item[2.2] Matrices \dotfill{4}
+				\item[2.3] Radicals \dotfill{4}
+				\item[2.4] Integration \dotfill{5}
+				\item[2.5] Summation \dotfill{5}
+				\item[2.6] Differentiation \dotfill{6}
+				\item[2.7] Nested brackets \dotfill{6}
+			\end{enumerate}
+			\item[3] \textbf{Tables and Figures} \dotfill{7}
+			\item[4] \textbf{Numberings} \dotfill{8}
+			\begin{itemize}
+				\item[]
+				\begin{itemize}
+					\item[]
+			\begin{enumerate}
+						\item[4.0.1] Unordered (Bullet) Lists \dotfill{8}
+						\item[4.0.2] Ordered (Numbered) Lists \dotfill{8}
+						\item[4.0.3] Using Roman Numerals \dotfill{8}
+						\item[4.0.4] Using Letters \dotfill{8}
+						\item[4.0.5] Nested Lists \dotfill{8}
+			\end{enumerate}
+			\end{itemize}
+			\end{itemize}
+			\item[5] \textbf{Pseudocode} \dotfill{8}
+			\item[6] \textbf{Coloring} \dotfill{10}
+			\item[7] \textbf{Citing the Papers} \dotfill{10}
+		\end{enumerate}
+		\item[] \textbf{List of Figures}
+		\begin{enumerate}
+			\item[1] IIT DHARWAD \dotfill{7}
+		\end{enumerate}
+		\item[] \textbf{List of Tables}
+		\begin{enumerate}
+			\item[1] A simple table in LaTeX \dotfill{7}
+		\end{enumerate}
+	\end{itemize}
+	\pagebreak
+	
+	\section{Introduction}
+	This document serves as a comprehensive guide to various mathematical and technical concepts, presented in a structured and easy-to-follow format.\\ \\
+	\textbf{Section 2: Mathematics} explores fundamental mathematical concepts, beginning with trigonometric equations and identities, and moving through topics
+	such as matrices, radicals, integration, summation, differentiation, and the use
+	of nested brackets. This section aims to reinforce key principles and provide
+	useful equations and formulas for each area. \\ \\
+	\textbf{Section 3: Tables and Figures} demonstrates how to include tables and
+	figures in a LaTeX document, showcasing ways to organize data and visualize
+	information effectively.\\ \\
+	\textbf{Section 4: Numbering} explains various types of lists and numbering conventions, including unordered (bullet) lists, ordered (numbered) lists, Roman numerals, alphabetic lists, and nested lists. The section provides examples to
+	help readers apply these styles in their own documents. \\ \\
+	\textbf{Section 5: Pseudocode} introduces techniques for writing pseudocode in LaTeX, allowing readers to structure algorithms and complex procedures in a clear,readable format. \\ \\
+	\textbf{Section 6: Coloring} covers the use of color in LaTeX, showing how to apply
+	different colors to text, backgrounds, and other elements to enhance readability
+	and aesthetic appeal. \\ \\
+	\textbf{Section 7: Citing the Papers}  explains the methods for citing academic
+	papers and references in LaTeX, which is essential for creating well-documented
+	technical or research papers. \\ \\
+	This document includes both a list of figures and a list of tables, helping the
+	reader quickly locate visual elements. Each section is carefully structured to ensure clarity and utility, making this guide a valuable resource for anyone seeking
+	to enhance their skills in LaTeX and mathematical documentation.
+	
+	\pagebreak
+	
+	\section{Mathematics}
+	
+	\subsection{Writing Trigonometric Equations}
+	There are six trigonometric functions:
+	\begin{itemize}
+		\item \(\sin x\)
+		\item \(\cos x\)
+		\item \(\tan x\)
+		\item \(\cot x\)
+		\item \(\sec x\)
+		\item \(\csc x\)
+	\end{itemize}
+	
+	\subsubsection{Some trigonometric identities}
+	\begin{itemize}
+		\item $\sin^2 x + \cos^2 x = 1$
+		\item $\sin^2 \theta + \cos^2 \theta = 1$
+		\item $1 + \tan^2 x = \sec^2 x$
+		\item $1 + \cot^2 x = \csc^2 x$
+		\item $\tan(2x) = \frac{2 \tan x}{1 - \tan^2 x}$
+	\end{itemize}
+	
+	\subsection{Matrices}
+	\begin{itemize}
+		\item Row Vector: A $1 \times N$ matrix:\\
+		\(
+		\begin{bmatrix}
+			a & b & c
+		\end{bmatrix}
+		\)
+		\item Column Vector: A $N \times 1$ matrix:\\
+		\(
+		\begin{bmatrix}
+			a \\
+			b \\
+			c
+		\end{bmatrix}
+		\)
+		\item Square Matrix: $N \times N$ matrix:\\
+		\(
+		\begin{bmatrix}
+			a & b & c \\
+			d & e & f \\
+			g & h & i
+		\end{bmatrix}
+		\)
+	\end{itemize}
+	
+	\pagebreak
+	
+	\subsection{Radicals}
+	\begin{itemize}
+		\item Basic Square Roots:\\
+		\(\sqrt{a}\)
+		\item Square Root with Expression Inside:\\ \(\sqrt{x^2 + y^2}\)
+		\item Cube Root:\\
+		\(\sqrt[3]{a}\)
+		\item nth Root:\\
+		\(\sqrt[n]{a}\)
+	\end{itemize}
+	
+	\subsection{Integration}
+	The integral of $f(x) = x^2$ from $0$ to $1$:
+	\[
+	\int_{0}^{1} x^2 \,dx = \frac{1}{3}x^3 \Big|_0^1 = \frac{1}{3}
+	\]
+	
+	\subsection{Summation}
+	The sum of the first $n$ natural numbers:
+	\[
+	\sum_{i=1}^n i = \frac{n(n+1)}{2}
+	\]
+	\newpage
+	\subsection{Differentiation}
+	The derivative of $f(x) = x^3$ with respect to $x$:
+	\[
+	\frac{d}{dx}x^3 = 3x^2
+	\]
+	
+	\subsection{Nested Brackets}
+	Example 1:
+	\[
+	w = \left( \sqrt{\Big(1 + \frac{1}{x^2}\Big)} \cdot \left[ \log \left( 2 + \frac{1}{y} \right) + \left\{ 3^x - \left( \frac{2}{z} \right)^y \right\} \right]\right)
+	\]
+	Example 2:
+	\[
+	z = \left\{ \left( \frac{3}{2} + \left[ 5^2 - \left( 4 + \frac{1}{x} \right)^3 \right] \right) \times \left( 1 + \sqrt{y} \right) \right\}
+	\]
+	
+
+	
+	\pagebreak
+	
+	\section{Tables and Figures}
+	Happy Synonyms
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|c|} 
+			\hline
+			Column 1 & Column 2 & Column 3 \\ 
+			\hline
+			cheerful & delighted & ecstatic \\ 
+			\hline
+			glad & thrilled & jolly \\ 
+			\hline
+			jubilant & merry & upbeat \\ 
+			\hline
+		\end{tabular}
+		\caption{A simple table in LaTeX}
+	\end{table}
+	
+	
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{"iit dharwad"}
+	\caption{IIT DHARWAD}
+	\label{fig:iit-dharwad}
+\end{figure}
+	
+	\pagebreak
+	\section{Numbering}
+	
+	\begin{enumerate}
+		\item[4.0.1]\textbf{Unordered (Bullet) Lists}
+		\begin{itemize}
+			\item First item
+			\item Second item
+			\item Third item
+		\end{itemize}
+		\item[4.0.2]\textbf{Ordered (Numbered) Lists}
+		\begin{enumerate}
+			\item[1.] First item
+			\item[2.] Second item
+			\item[3.] Third item
+		\end{enumerate}
+		
+		\item[4.0.3] \textbf{Using Roman Numerals:}
+		\begin{enumerate}
+			\item[I.] First item
+			\item[II.] Second item
+			\item[III.] Third item
+		\end{enumerate}
+		
+		\item[4.0.4]\textbf{Using Letters}
+		\begin{enumerate}
+			\item[a)] First item
+			\item[b)] Second item
+			\item[c)] Third item
+		\end{enumerate}
+		\item[4.0.5]\textbf{Nested Lists}
+		\begin{itemize}
+			\item First item
+			\begin{itemize}
+				\item Nested item 1
+				\item Nested item 2
+			\end{itemize}
+			\item Second item
+		\end{itemize}
+	\end{enumerate}
+	\section{Pseudocode}
+	Pseudocode is an informal way of programming description that does not require any strict programming language syntax or underlying technology considerations. It is used for creating an outline or a rough draft of a program. Pseudocode summarizes a program’s flow, but excludes underlying details. LaTeX has several packages for typesetting algorithms in the form of "pseudocode". They provide stylistic enhancements over a uniform style (i.e., all in typewriter font).
+	
+	\begin{algorithm}
+		\caption{Merge Sort}
+		\begin{algorithmic}[1]
+			\Procedure{MergeSort}{$A, \text{left}, \text{right}$}
+			\If{$\text{left} < \text{right}$}
+			\State $\text{mid} \gets \text{floor}((\text{left} + \text{right}) / 2)$
+			\State \Call{MergeSort}{$A, \text{left}, \text{mid}$}
+			\State \Call{MergeSort}{$A, \text{mid} + 1, \text{right}$}
+			\State \Call{Merge}{$A, \text{left}, \text{mid}, \text{right}$}
+			\EndIf
+			\EndProcedure
+			
+			\Procedure{Merge}{$A, \text{left}, \text{mid}, \text{right}$}
+			\State $n1 \gets \text{mid} - \text{left} + 1$
+			\State $n2 \gets \text{right} - \text{mid}$
+			\State Create arrays $L[1 \dots n1]$ and $R[1 \dots n2]$
+			\For{$i = 1$ to $n1$}
+			\State $L[i] \gets A[\text{left} + i - 1]$
+			\EndFor
+			\For{$j = 1$ to $n2$}
+			\State $R[j] \gets A[\text{mid} + j]$
+			\EndFor
+			\State $i, j, k \gets 1, 1, \text{left}$
+			\While{$i \leq n1$ and $j \leq n2$}
+			\If{$L[i] \leq R[j]$}
+			\State $A[k] \gets L[i]$
+			\State $i \gets i + 1$
+			\Else
+			\State $A[k] \gets R[j]$
+			\State $j \gets j + 1$
+			\EndIf
+			\State $k \gets k + 1$
+			\EndWhile
+			\While{$i \leq n1$}
+			\State $A[k] \gets L[i]$
+			\State $i \gets i + 1$
+			\State $k \gets k + 1$
+			\EndWhile
+			\While{$j \leq n2$}
+			\State $A[k] \gets R[j]$
+			\State $j \gets j + 1$
+			\State $k \gets k + 1$
+			\EndWhile
+			\EndProcedure
+		\end{algorithmic}
+	\end{algorithm}
+	
+	\newpage 
+	\section{Coloring}
+	
+	{\color{blue} This is blue text.}\\
+	{\color{red} This is red text.}\\
+	\noindent
+	\hl{This text has a yellow background.}\\
+	{\color{purple} This entire paragraph is purple. All sentences here will appear in purple.}
+	
+	\section{Citing the Papers}
+	\begin{itemize}
+		\item Investigating the impact of network topology on the processing times of SDN controllers \cite{metter2015investigating}
+		\item SDN controllers: A comparative study \cite{salman2016sdn}
+		\item Controllers in SDN: A Review Report \cite{paliwal2018controllers}
+		\item Software defined networks: Comparative analysis of topologies with ONOS \cite{rajaratnam2017software}
+	\end{itemize}
+	
+	\begin{thebibliography}{9}
+		\bibitem{metter2015investigating}
+		C. Metter, S. Gebert, S. Lange, T. Zinner, P. Tran-Gia, and M. Jarschel,
+		``Investigating the impact of network topology on the processing times of sdn controllers,'' in \textit{2015 IFIP/IEEE International Symposium on Integrated Network Management (IM)}, pp. 1214--1219, 2015.
+		
+		\bibitem{salman2016sdn}
+		O. Salman, I. H. Elhajj, A. Kayssi, and A. Chehab, ``Sdn controllers: A comparative study,'' in \textit{2016 18th Mediterranean Electrotechnical Conference (MELECON)}, pp. 1--6, 2016.
+		
+		\bibitem{paliwal2018controllers}
+		M. Paliwal, D. Shrimankar, and O. Tembhurne, ``Controllers in sdn: A review report,'' \textit{IEEE Access}, vol. 6, pp. 36256--36270, 2018.
+		
+		\bibitem{rajaratnam2017software}
+		A. Rajaratnam, R. Kadikar, S. Prince, and M. Valarmathi, ``Software defined networks: Comparative analysis of topologies with onos,'' in \textit{2017 International Conference on Wireless Communications, Signal Processing and Networking (WiSPNET)}, pp. 1377--1381, 2017.
+	\end{thebibliography}
+	\begin{thebibliography}{99} % Allows for two-digit labels
+		\bibitem{key1}
+		Author A, Author B,
+		``Title of the paper,'' in \textit{Conference Name}, pp. 1--10, Year.
+		
+		\bibitem{key2}
+		Author C, Author D,
+		``Another paper title,'' in \textit{Another Conference}, pp. 20--30, Year.
+
+		% More \bibitem entries
+	\end{thebibliography}
+
+	\(\sin^2 \Theta + \csc^2 \theta = 1 \)
+	\[\ \Big\{\Big(\frac{3}{2}+\Big[5^2-\Big(4+\frac{1}{x}\Big)^3\Big)\times(1+\sqrt{y})\Big\}
+	\]
+	$\forall x \, (x > 5)$
+\end{document}
